@@ -515,10 +515,10 @@
 
         // Данные героев (хранятся в localStorage)
         function getHeroesData() {
-        const saved = localStorage.getItem('heroesData');
-        if (saved) {
+    const saved = localStorage.getItem('heroesData');
+    if (saved) {
         return JSON.parse(saved);
-        } else {
+    }
         // Начальные данные
         const initialData = [
     {
